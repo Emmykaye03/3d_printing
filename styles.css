@@ -1,0 +1,84 @@
+body {
+background-color: #0a0a0a;
+font-size: 1em;
+font-family: 'Lato', sans-serif;
+	color: #9F9FA0;
+}
+p{
+	color:#FFFFFF;
+}
+.logo{
+	padding: 20px;
+}
+nav a {
+text-decoration: none;
+font-size: 1.5em;
+display: inline;
+float: right;
+color: #666;
+margin:0 10px 0 10px;
+font-family: 'Roboto Slab', serif;;
+}
+h1{
+	font-size: 2em;
+	color: #BDBDBD;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+body{ 
+text-align: center;
+}
+ul{
+	list-style: none;
+}
+footer{
+	color: #666;
+}
+footer a{
+	color: #FFF;
+	text-decoration: none;
+}
+a { 
+text-decoration: none;
+color: #CEA1FF;
+}
+a link:hover {
+	color: #5D226C;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 80%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #848282; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
